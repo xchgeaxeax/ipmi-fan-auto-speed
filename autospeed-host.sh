@@ -1,12 +1,6 @@
 #!/bin/bash
 
 
-# Set variables
-
-host="ip"
-user="root"
-password="pass"
-
 # define some temp for server
 low="50"
 mid1="58"
@@ -63,4 +57,3 @@ else
         ipmitool  raw 0x30 0x30 0x01 0x01 >> /dev/null
 
 fi
-
